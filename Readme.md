@@ -1,39 +1,26 @@
-# Handwritten to Text Converter
+# 📝 Handwritten Text Extractor (Tkinter + Gemini Vision API)
 
-This project converts handwritten notes into text using computer vision and machine learning.
+This is a Python desktop GUI application to extract handwritten text from an image using Google's Gemini Pro Vision API.
 
-## Features
+## 🚀 Features
 
-- **Image Processing:** Uses OpenCV for processing and manipulating images.
-- **Optical Character Recognition:** Leverages Tesseract for OCR.
-- **Simple CLI:** Run the application easily from the command line.
+- Select and preview an image from your system
+- Extract handwritten content using AI
+- Clean and simple GUI with Tkinter
+- Display results in a scrollable text area
+- Status bar for user feedback
 
-## Requirements
+## 🛠️ Tech Stack
 
-- Python 3.12
-- See [requirements.txt] for dependencies.
-- Also install [https://github.com/UB-Mannheim/tesseract/wiki]
+- Python 3.x
+- Tkinter (GUI)
+- Pillow (Image handling)
+- Google Generative AI SDK
+- Dotenv (API key management)
 
-## Setup
+## 📦 Requirements
 
-1. **Create a virtual environment:**
-   ```sh
-   python -m venv env
-   ```
-2. **Activate the virtual environment:**
-   - On Windows:
-     ```sh
-     env\Scripts\activate
-     ```
-3. **Install dependencies:**
-   ```sh
-   pip install -r requirements.txt
-   ```
+Install the dependencies:
 
-## Usage
-
-To run the project:
-```sh
-python main.py
-```
-
+```bash
+pip install pillow python-dotenv google-generativeai
